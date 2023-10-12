@@ -20,8 +20,9 @@ UNIT TEST ARE DONE Locally (for small portion of code ...)
 Staging tests can be done on a testnet (LAST STOP BEFORE DEPLOYMENT !!!!!);
 
 deploy - deploying the smartcontract on networks
-scripts - interacting with smart contracts 
+scripts - interacting with smart contracts (scripts works on already deployed contracts) 
 test - testing the smart contract working properly before deploying to a network
+frontend - once a smart contract is deployed you can interact with already deployed account using contract address, abi and signer(account which is connected) , frontend is connected to metamask which is connected to a node of the blockchain underthe hood  , once forntend is connected to metamask we can post request through metamask api...
 
  ```
 
